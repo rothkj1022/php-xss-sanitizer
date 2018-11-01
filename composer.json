@@ -1,0 +1,20 @@
+{
+	"name": "rothkj1022/php-xss-sanitizer",
+	"description": "PHP XSS Sanitizer uses HTMLPurifier to recursively clean up get, post, and files arrays to protect your application.",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Kevin Roth"
+		}
+	],
+		"require": {
+		"php": "^5.4 || ^7.0",
+        "ezyang/htmlpurifier": "^4.9"
+	},
+	"autoload": {
+		"psr-4": {
+			"rothkj1022\\Sanitizer\\": "src"
+		}
+	}
+}
