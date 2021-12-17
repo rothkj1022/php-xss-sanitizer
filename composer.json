@@ -8,9 +8,9 @@
 			"name": "Kevin Roth"
 		}
 	],
-		"require": {
-		"php": "^5.4 || ^7.0",
-        "ezyang/htmlpurifier": "^4.9"
+	"require": {
+		"php": "^5.4 || ^7.0 || ^8.0",
+		"ezyang/htmlpurifier": "^4.9"
 	},
 	"autoload": {
 		"psr-4": {
